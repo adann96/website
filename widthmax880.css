@@ -1,0 +1,94 @@
+@media screen and (max-width: 740px)  {
+#aboutMe .containerAboutMe hgroup {
+    width: 100%;
+}
+
+#footer p {
+	width: 80%;
+}
+
+.hamburger {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: url("photos/hamburger-31775_640.png");
+	background-size: cover;
+    outline: none;
+    color: white;
+    font-size: 30px;
+	margin: 0px;
+	border: none;
+}
+
+.logo {
+	background: url("photos/logo.png") no-repeat center;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+	position: relative;
+	width: 100%;
+	display: flex;
+    justify-content: space-between;
+  	padding: 0px;
+}
+
+.containerOne {
+	width: 90%;
+}
+
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 48px;
+  right: 0px;
+  width: 40%;
+  background: #4a4a4a;
+      transition: 0.9s transform ease-in-out;
+    transform: translateX(-300%);
+}
+    
+
+  button:focus ~ .menu, .menu:hover {
+    transform: translateX(0%);
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+	#footer ul {
+	width: 80%;
+	flex-direction: column;
+}
+
+	#footer ul li {
+	padding: 20px 0px 20px 0px;
+}
+    #aboutMe .containerAboutMe .frontEndImage {
+    width: 80%;
+}
+}
+
+
+@media screen and (max-width: 600px) {
+nav ul {
+  width: 100%;
+}
+
+nav ul li {
+  padding: 0px 20px 0px 20px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#aboutMe .containerAboutMe {
+    width: 100%;
+}
+    
+#aboutMe .containerAboutMe .frontEndImage {
+    width: 80%;
+}
