@@ -1,0 +1,214 @@
+body {
+  background: black;
+  margin: 0px;
+  font-family: 'Ubuntu Mono';
+}
+
+#hamburger {
+  display: none;
+}
+
+header {
+  width: 100%;
+  background: grey;
+  height: 80px;
+}
+
+header nav {
+  width: 100%;
+  height: 80px;
+  background: #333;
+  display: flex;
+	justify-content: space-between;
+  position: fixed;
+  z-index: 30;
+}
+
+header nav #menu {
+  margin: 0 auto;
+  display: flex;
+  height: 80px;
+  width: 80%;
+  padding: 0px;
+}
+
+header #menu .logo, header #menu .menuLi {
+  height: 20px;
+  list-style-type: none;
+  padding: 30px 10px 30px 10px;
+  letter-spacing: 1px;
+  color: #e6e6e6;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+header #menu .logo .greenText {
+  color: #67ad36;
+}
+
+header #menu .logo .blueText {
+  color: #6a91af;
+}
+
+header #menu .logo .flash {
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 0.8s steps(5, start) infinite;
+  font-weight: bold;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+header #menu .menuLi {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+#home {
+  display: table;
+  width: 100%;
+  text-align: center;
+  height: 85vh;
+  position: relative;
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.5), 
+          rgba(0, 0, 0, 0.5)
+        ),url(https://www.free-css.com/assets/files/free-css-templates/preview/page246/dominic/assets/images/uploads/banner-01.jpg) center 0px / cover no-repeat;
+}
+
+#home .containerWelc {
+  width: 60%;
+  color: #d9d9d9;
+  display: table-cell;
+  vertical-align: middle;
+  z-index: 1;
+  text-transform: uppercase;
+  font-family: 'Ubuntu Mono';
+  text-shadow: 1px 1px 5px black;
+}
+
+#home .containerWelc h1 {
+  font-size: 62px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+#home .containerWelc p {
+  font-size: 18px;
+  padding: 10px 0px;
+}
+
+#home .containerWelc h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+#about, #technologies {
+  width: 100%;
+  padding: 70px 0;
+}
+
+#about #containerAbout, #technologies #containerTechnologies {
+  width: 80%;
+  margin: 0 auto;
+  background: #333;
+}
+
+#about #containerAbout .col-1, #about #containerAbout .col-2 {
+  display: table-cell;
+  vertical-align: middle;
+  width: 50%;
+  font-size: 17px;
+  padding: 20px 40px 20px;
+  align-items: center;
+  color: #e6e6e6;
+  text-shadow: 1px 1px 1px black;
+}
+
+#about #containerAbout .col-1 {
+  line-height: 1.80857;
+}
+
+#about #containerAbout .col-1 a {
+  color: #e6e6e6;
+  background: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+#about #containerAbout .col-1 a:hover {
+  background: silver;
+}
+
+#about #containerAbout .col-2 img {
+  vertical-align: middle;
+  max-width: 100%;
+  box-shadow: 10px 10px 0px #e6e6e6;
+}
+
+#technologies {
+  width: 100%;
+  background: grey;
+  color: #d9d9d9;
+}
+
+#technologies #containerTechnologies h1 {
+  padding: 40px 40px 20px;
+  margin: 0px 0px 0px 0px;
+}
+
+#technologies #containerTechnologies p {
+  font-size: 17px;
+  line-height: 1.80857;
+  padding: 0px 40px 20px;
+  margin: 0px;
+}
+
+#technologies #containerTechnologies #containerRow {
+  background: silver;
+  margin: 0 auto;
+  padding: 20px 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#technologies #containerTechnologies #containerRow .row {
+  width: 30%;
+  background: #333;
+  margin: 10px auto;
+}
+
+#technologies #containerTechnologies #containerRow .icon {
+  width: 30%;
+  padding: 10px;
+}
+
+#technologies #containerTechnologies #containerRow .icon img {
+  width: 100%;
+  height: 10%;
+  background: white;
+  box-shadow: 10px 10px 0px grey;
+}
+
+#technologies #containerTechnologies #containerRow h3 {
+  padding: 0px 10px 0px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+#technologies #containerTechnologies #containerRow p {
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  font-size: 12px;
+}

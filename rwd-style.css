@@ -1,0 +1,140 @@
+@media screen and (max-width: 700px) {
+  #hamburger {
+      display: block;
+      text-align: center;
+      width: 100%;
+      cursor: pointer;
+      padding: 5px 0px 5px 0px;
+      margin: 0 auto;
+      background: orange;
+  }
+  
+  header, #menuToggle {
+    height: 230px;
+    width: 100%;
+    position: relative;
+  }
+  
+  header {
+    overflow: hidden;
+  }
+  
+  #menuToggle {
+    position: fixed;
+    z-index: 999;
+  }
+  
+  header nav {
+    height: 230px;
+    position: relative;
+  }
+  
+  header nav #menu {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px auto;
+    width: 100%;
+  }
+  
+  header #menu .logo, header #menu .menuLi {
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 12.5px;
+  }
+  
+  #home .containerWelc {
+    padding: 10px 25px 10px;
+  }
+  
+  #home .containerWelc h1 {
+    font-size: 35px;
+  }
+  
+  #home .containerWelc p {
+    font-size: 14px;
+  }
+  
+  #home .containerWelc h2 {
+    font-size: 20px;
+  }
+  
+  #about {
+  width: 100%;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+}
+  
+  #about #containerAbout {
+  width: 80%;
+  margin: 0 auto;
+  background: #333;
+}
+  
+  #about #containerAbout .col-1, #about #containerAbout .col-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 80%;
+  }
+  
+  #about #containerAbout .col-1 h1 {
+    font-size: 20px;
+  }
+  
+  #about #containerAbout .col-1 p {
+    font-size: 15px;
+  }
+  
+  #about #containerAbout .col-2 {
+    padding: 30px;
+  }
+  
+  #technologies #containerTechnologies h1, #technologies #containerTechnologies p {
+  text-align: center;
+  }
+  
+  #technologies #containerTechnologies h1 {
+    font-size: 20px;
+  }
+  
+  #technologies #containerTechnologies p {
+    font-size: 15px;
+  }
+  
+  #technologies #containerTechnologies #containerRow {
+    padding: 10px;
+  }
+  
+  #technologies #containerTechnologies #containerRow .row {
+    width: 100%;
+    background: #333;
+    margin: 20px 20px auto;
+  }
+}
+
+footer {
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+  width: 80%;
+  background: #333;
+}
+
+footer h2 {
+  padding: 20px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+#footer li {
+  margin: 0 auto;
+  padding: 20px;
+  list-style-type: none;
+}
